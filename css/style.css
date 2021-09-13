@@ -1,0 +1,194 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.bg-light {
+  background: rgb(251, 241, 231);
+}
+
+section {
+  padding: 3em 0;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+button {
+  background: #cd2653;
+  color: #fff;
+  padding: 15px 20px;
+  border: none;
+  outline: none;
+}
+
+.text-search {
+  padding: 15px 20px;
+  width: 320px;
+  border: 1px solid #e5e5e5;
+}
+
+nav .logo .sub {
+  display: none;
+}
+
+nav ul {
+  display: none;
+}
+
+nav {
+  padding: 0 2em;
+}
+
+.split-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+.nav-button {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.sub-title {
+  font-size: 1.2rem;
+}
+
+.container {
+  margin-inline: auto;
+  width: min(90%, 70.5rem);
+  overflow: hidden;
+}
+
+.first p {
+  margin: 2em 0;
+}
+
+.second .text-search {
+  margin-bottom: 2em;
+}
+
+.second h3 {
+  margin-bottom: 1em;
+}
+
+.second p {
+  margin-bottom: 1em;
+  font-size: 1.2rem;
+  color: #686868;
+}
+
+.second .font-red {
+  color: #cd2653;
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+}
+
+footer {
+  padding: 2em 0;
+  border-top: 1px solid #e5e5e5;
+}
+
+footer .power {
+  display: none;
+}
+
+@media (min-width: 40em) {
+  nav .logo .sub {
+    display: block;
+  }
+
+  nav ul {
+    display: block;
+  }
+
+  nav .logo {
+    display: flex;
+  }
+
+  nav .logo {
+    font-size: 1.2rem;
+  }
+
+  nav .logo p:first-child {
+    margin-right: 2em;
+  }
+
+  nav .logo .sub {
+    color: #686868;
+  }
+
+  nav ul {
+    padding: 0;
+    margin: 0;
+  }
+
+  nav li {
+    list-style: none;
+    display: inline;
+    margin-right: 1em;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #cd2653;
+    font-size: 1.2rem;
+  }
+
+  .nav-button {
+    display: none;
+  }
+
+  h1 {
+    font-size: 84px;
+  }
+
+  h3 {
+    font-size: 40px;
+  }
+
+  section {
+    padding: 3em 0;
+  }
+
+  .first .split {
+    max-width: 70%;
+    margin: 0 auto;
+  }
+
+  .second .split {
+    display: flex;
+  }
+
+  .second .box {
+    margin-right: 5em;
+  }
+
+  footer .power {
+    display: block;
+    margin-left: 2em;
+    color: #686868;
+  }
+
+  footer .split {
+    display: flex;
+  }
+}
